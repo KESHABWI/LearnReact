@@ -1,3 +1,7 @@
-export default function Hello() {
-  return <div className="hello">Hello from Hello component!</div>;
+export default function Hello(props) {
+  return (
+    <div className="hello">
+      {props.message} {props.name}
+    </div>
+  );
 }
