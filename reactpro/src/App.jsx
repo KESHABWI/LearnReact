@@ -1,4 +1,5 @@
 import ArrayandObject from "./components/ArrayandObject";
+import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
 function App() {
   const setNumbers = [1, 2, 3, 4, 5];
@@ -11,6 +12,7 @@ function App() {
     <>
       <Hello name="John" message="Welcome to the React world!" />
       <ArrayandObject setNumbers={setNumbers} user={user} />
+      <Fruits />
     </>
   );
 }
