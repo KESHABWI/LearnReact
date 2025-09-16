@@ -1,7 +1,7 @@
-export default function Hello(props) {
+export default function Hello({ message, name }) {
   return (
     <div className="hello">
-      {props.message} {props.name}
+      {message} {name}
     </div>
   );
 }
